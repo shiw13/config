@@ -1,0 +1,89 @@
+{
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.minimap.enabled": true,
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "sync.gist": "",
+    "files.eol": "\n",
+    "files.autoSave": "off",
+    "go.buildOnSave": "package",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "sync.autoUpload": true,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Cascadia Code', 'Courier New', monospace",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoGuessEncoding": true,
+    "go.alternateTools": {
+    
+    },
+    "editor.largeFileOptimizations": false,
+    "vim.commandLineModeKeyBindings": [
+    
+    ],
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+        },
+        {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.formatOnSave": true,
+    "terminal.integrated.profiles.windows": {
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": []
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "vim.useCtrlKeys": false,
+    "security.workspace.trust.untrustedFiles": "open"
+}
